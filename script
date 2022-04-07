@@ -1,1 +1,208 @@
-game.Players.LocalPlayer.PlayerGui.v1.Enabled = true
+
+local v1 = Instance.new("ScreenGui")
+local logo = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local Frame = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local CashFrame = Instance.new("Frame")
+local TextBox_2 = Instance.new("TextBox")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local logo_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+
+
+
+v1.Name = "v1"
+v1.Parent = game.CoreGui
+v1.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+logo.Name = "logo"
+logo.Parent = v1
+logo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+logo.BorderColor3 = Color3.fromRGB(0, 255, 17)
+logo.Position = UDim2.new(0.437912703, 0, 0.415900409, 0)
+logo.Size = UDim2.new(0.146305785, 0, 0.028846154, 0)
+logo.ZIndex = 2
+logo.Font = Enum.Font.FredokaOne
+logo.Text = "BloxyFarm FUCKER V1"
+logo.TextColor3 = Color3.fromRGB(0, 0, 0)
+logo.TextScaled = true
+logo.TextSize = 14.000
+logo.TextStrokeColor3 = Color3.fromRGB(34, 255, 0)
+logo.TextStrokeTransparency = 0.000
+logo.TextWrapped = true
+
+UITextSizeConstraint.Parent = logo
+UITextSizeConstraint.MaxTextSize = 21
+
+Frame.Parent = v1
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(81, 255, 0)
+Frame.Position = UDim2.new(0.332141578, 0, 0.404789269, 0)
+Frame.Size = UDim2.new(0.256035119, 0, 0.253783494, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+TextBox.Parent = Frame
+TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderColor3 = Color3.fromRGB(4, 255, 0)
+TextBox.Position = UDim2.new(0.034285713, 0, 0.24043715, 0)
+TextBox.Size = UDim2.new(0.931428552, 0, 0.202185795, 0)
+TextBox.Font = Enum.Font.FredokaOne
+TextBox.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.PlaceholderText = "cmds for commands"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 30.000
+TextBox.TextStrokeColor3 = Color3.fromRGB(59, 255, 0)
+TextBox.TextStrokeTransparency = 0.000
+TextBox.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = TextBox
+UIAspectRatioConstraint.AspectRatio = 8.811
+
+TextButton.Parent = v1
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(2, 255, 2)
+TextButton.Position = UDim2.new(0.341351122, 0, 0.417624533, 0)
+TextButton.Size = UDim2.new(0.0841258243, 0, 0.0274725277, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Commands"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(6, 255, 35)
+TextButton.TextStrokeTransparency = 0.000
+TextButton.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = TextButton
+UITextSizeConstraint_2.MaxTextSize = 14
+
+CashFrame.Name = "CashFrame"
+CashFrame.Parent = v1
+CashFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CashFrame.BorderColor3 = Color3.fromRGB(0, 255, 29)
+CashFrame.Position = UDim2.new(0.150358543, 0, 0.404789269, 0)
+CashFrame.Size = UDim2.new(0.172640815, 0, 0.25, 0)
+CashFrame.Active = true
+CashFrame.Draggable = true
+
+TextBox_2.Parent = CashFrame
+TextBox_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderColor3 = Color3.fromRGB(4, 255, 0)
+TextBox_2.Position = UDim2.new(0, 0, 0.00144589599, 0)
+TextBox_2.Size = UDim2.new(1.05084753, 0, 1.00549448, 0)
+TextBox_2.Font = Enum.Font.FredokaOne
+TextBox_2.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.PlaceholderText = "value?"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 30.000
+TextBox_2.TextStrokeColor3 = Color3.fromRGB(59, 255, 0)
+TextBox_2.TextStrokeTransparency = 0.000
+TextBox_2.TextWrapped = true
+
+UITextSizeConstraint_3.Parent = TextBox_2
+UITextSizeConstraint_3.MaxTextSize = 30
+
+TextButton_2.Parent = CashFrame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 255, 0)
+TextButton_2.Position = UDim2.new(0, 0, 0.724862576, 0)
+TextButton_2.Size = UDim2.new(1.05295503, 0, 0.290271521, 0)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "Confirm"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextStrokeColor3 = Color3.fromRGB(0, 255, 4)
+TextButton_2.TextStrokeTransparency = 0.000
+TextButton_2.TextWrapped = true
+
+UITextSizeConstraint_4.Parent = TextButton_2
+UITextSizeConstraint_4.MaxTextSize = 49
+
+logo_2.Name = "logo"
+logo_2.Parent = v1
+logo_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+logo_2.BorderColor3 = Color3.fromRGB(0, 255, 17)
+logo_2.Position = UDim2.new(0.332141578, 0, 0.658572793, 0)
+logo_2.Size = UDim2.new(0.17888239, 0, 0.0274725687, 0)
+logo_2.ZIndex = 2
+logo_2.Font = Enum.Font.FredokaOne
+logo_2.Text = "Cash"
+logo_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+logo_2.TextScaled = true
+logo_2.TextSize = 14.000
+logo_2.TextStrokeColor3 = Color3.fromRGB(34, 255, 0)
+logo_2.TextStrokeTransparency = 0.000
+logo_2.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = logo_2
+UITextSizeConstraint_5.MaxTextSize = 21
+
+
+local function DZFJN_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local textBox = script.Parent
+	
+	local secretWord = "shutdown"
+	
+	textBox.ClearTextOnFocus = true
+	textBox.Text = ""
+	
+	local function onFocusLost(enterPressed, inputObject)
+		if enterPressed then
+			local guess = textBox.Text
+			if guess == secretWord then
+				textBox.Text = "executed command"
+				
+				for i,v in pairs(game.Players:GetPlayers()) do
+					v:Kick("The server is shutting down")
+					
+				wait(2)
+					textBox.PlaceholderText = "cmds for commands"
+				end
+			else
+				textBox.Text = "no such command"
+				wait(2)
+				textBox.PlaceholderText = "cmds for commands"
+			end
+		else
+			textBox.Text = ""
+			end
+		end
+	textBox.FocusLost:Connect(onFocusLost)
+end
+coroutine.wrap(DZFJN_fake_script)()
+local function RZFP_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	local button = script.Parent.Parent.TextButton
+	local moneyEvent = game.ReplicatedStorage.CashEvent --replace with path to money event
+	local box = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+		moneyEvent:FireServer(tonumber(box.Text))
+		box.PlaceholderText = "Cash set to value"
+		wait(2)
+		box.PlaceholderText = "value?"
+	end)
+end
+coroutine.wrap(RZFP_fake_script)()
+local function XFGMYA_fake_script() -- logo_2.LocalScript 
+	local script = Instance.new('LocalScript', logo_2)
+
+	while true do
+		wait(0.01)
+		script.Parent.Text = "Cash: "..game.Players.LocalPlayer.leaderstats.Cash.Value
+	end
+end
+coroutine.wrap(XFGMYA_fake_script)()
